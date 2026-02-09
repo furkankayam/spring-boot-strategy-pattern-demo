@@ -1,0 +1,7 @@
+# Application Config
+spring:
+  application:
+    name: spring-boot-strategy-pattern-demo
+
+server:
+  port: 8080

@@ -1,0 +1,16 @@
+# Services
+services:
+
+  # Spring Strategy Pattern Backend
+  spring_strategy_pattern_backend:
+    build: ./
+    container_name: spring_strategy_pattern_backend
+    ports:
+      - "8080:8080"
+    networks:
+      - my-network
+
+# Networks
+networks:
+  my-network:
+    driver: bridge
